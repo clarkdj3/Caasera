@@ -37,7 +37,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Your account for everything Cassera."
+        android:text="Your account for everything Caasera."
         android:textSize="20sp"
         android:textStyle="normal|bold"
         android:layout_above="@+id/edtLoginName"
@@ -78,7 +78,7 @@
         android:id="@+id/btnCancel"
         android:textSize="20sp"
         android:textColor="@color/CasseraGray"
-        android:background="@android:color/white"
+        android:background="@android:drawable/btn_default"
         tools:text="Cancel"
         android:onClick="btnCancelOnClick"
         android:layout_alignParentStart="true"
