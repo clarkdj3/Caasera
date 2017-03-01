@@ -56,14 +56,14 @@
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            app:srcCompat="@drawable/golfball"
+            app:srcCompat="@drawable/golfball2"
             android:id="@+id/golfball2"
             android:layout_weight="1.00" />
 
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            app:srcCompat="@drawable/basketball"
+            app:srcCompat="@drawable/basketball2"
             android:id="@+id/basketball"
             android:adjustViewBounds="false"
             android:layout_alignParentBottom="false"
@@ -73,7 +73,7 @@
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            app:srcCompat="@drawable/golfball"
+            app:srcCompat="@drawable/golfball2"
             android:id="@+id/golfball1"
             android:layout_weight="1.00" />
 
