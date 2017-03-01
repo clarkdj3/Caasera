@@ -1,5 +1,6 @@
 package com.clarkdj3.caasera;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i("Click", edtLoginName.getText().toString());
         Log.i("Click", edtPassword.getText().toString());
         Toast.makeText(this, "You successfully Logged in: " + edtLoginName.getText().toString() + " " + "Password: " + edtPassword.getText().toString(), Toast.LENGTH_LONG).show();
+        startActivity(new Intent(this, Landing1.class));
     }
 
     public void btnCancelOnClick(View v) {
